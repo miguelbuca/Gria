@@ -78,6 +78,7 @@ form>div:first-child{
 }
 form>div:first-child h3{
     color: var(--primary-color);
+    font-size: 25px;
 }
 form>div:first-child label {
     color: var(--dark-gray);
@@ -100,14 +101,15 @@ form>div:last-child button{
     text-transform: uppercase;
     font-weight: bold;
     background-color: #ded8e4;
+    color: var(--dark-gray);
     border: none;
     cursor: pointer;
 }
 form>div:last-child button:last-child{
     margin-top: 1rem;
-    color: var(--primary-color);
+    color: #1071e6;
     background-color: transparent;
-    border: solid 2px #c3e1fb;
+    border: solid 3px #c3e1fb;
 }
 
 .cad-modal-container{
@@ -276,5 +278,9 @@ form>div:last-child button:last-child{
     }
     form>div:last-child button:last-child{
         border: none !important;
+    }
+    form>div:last-child button{
+        background-color: #1070e8;
+        color: #fff;
     }
 }
